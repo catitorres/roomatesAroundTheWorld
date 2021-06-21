@@ -1,0 +1,36 @@
+@import "colores";
+.buttonHome{
+	width:200px;
+	background-color:$oscuro;
+	border-radius:10px;
+	text-align:center;
+	padding:10px;
+	font-size:18px;
+	color:white;
+}
+.botonBusqueda{
+	@extend .buttonHome;
+	background-color: $rosa;
+	width: 100px;
+}
+.botonRedes{
+	@extend .buttonHome;
+	width: 100px;
+	background-color: $rosa;
+	border: 2px solid black;
+	color: white;
+	border-radius: 10px;
+	margin-left: 10px;
+}
+.botonEnviar{
+    @extend .botonRedes;
+    margin-left: 0px;
+    background-color: $verde;
+    border: 2px solid white;
+}
+.botonRegistrar{
+	@extend .botonEnviar
+}
+.imagenHeader{
+	width: 100%;
+}

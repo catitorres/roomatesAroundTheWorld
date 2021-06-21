@@ -1,0 +1,97 @@
+$oscuro: rgb(54,56,94);
+$verde: rgb(230,207,210);
+$verdeManzana: rgb(199,216,130);
+$rosa: rgb(144,167,176);
+$colorTitulos: white;
+body{
+	background-color:white;
+}
+.titulos{
+	color: white;
+	text-align: center;
+	margin-top: 50px;
+}
+.dondeVas{
+    padding: 20px;
+	color: $colorTitulos;
+	text-align: center;
+}
+.buscador{
+	background-color: $verdeManzana;
+	border: solid black;
+}
+.alerts{
+	width: 230px;
+	color: white;
+	font-size: 20px;
+	font-family: 'Source Sans Pro', sans-serif;
+	background-color: $rosa;
+	padding: 10px;
+	border: solid black;
+	border-width: 4px;
+}
+.frase{
+	@extend .alerts;
+	border: solid black;
+	color: white;
+	background-color: $verde;
+	width: 250px;
+	font-size: 50px;
+}
+.listing{
+	@extend .alerts;
+}
+.divAbout{
+	text-align: justify;
+	color: white;
+	font-size: 25px;
+	font-family: 'Source Sans Pro', sans-serif;
+	background-color: $rosa;
+	border: solid black;
+	border-width: 5px;
+	margin-bottom: 50px;
+	padding: 40px;
+}
+.divFaqs{
+	@extend .divAbout;
+	background-color: $verdeManzana;
+	color: black;
+	border: 5px solid black;
+	ul li{
+	list-style-type: none;
+	}
+}
+.divHistory{
+	@extend .divAbout;
+}
+.hrAboutUs{
+	width: 200px;
+	border: solid;
+	color: black;
+}
+.redes{
+	border: solid black;
+	background-color: $verde;
+	border-width: 5px;
+	padding: 20px;
+}
+.mailForm{
+	color: white;
+}
+.registrar{
+	@extend .mailForm;
+}
+.propiedadTituloTabla{
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	font-family: arial;
+	background-color: $oscuro;
+}
+.propiedadTabla{
+	font-size: 30px;
+	font-family: arial;
+	color: black;
+	background-color: $rosa;
+
+}
