@@ -274,8 +274,10 @@ footer {
   flex-direction: row;
   justify-content: center;
   justify-content: flex-start;
-  margin-top: 50px;
   background-color: #c7d882; }
+
+.logoFooter {
+  margin: 10px; }
 
 .contact {
   background-color: #c7d882;
@@ -285,7 +287,9 @@ footer {
   justify-content: center;
   justify-content: flex-start;
   align-content: space-around;
-  position: relative; }
+  position: relative;
+  left: 20px;
+  top: 20px; }
 
 .divMail {
   padding-right: 40px;
