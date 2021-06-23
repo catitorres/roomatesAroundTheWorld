@@ -15,7 +15,7 @@ body {
   background-color: #c7d882;
   border: solid black; }
 
-.alerts, .frase, .listing {
+.alerts, .listing {
   width: 230px;
   color: white;
   font-size: 20px;
@@ -26,11 +26,13 @@ body {
   border-width: 4px; }
 
 .frase {
-  border: solid black;
-  color: white;
+  text-align: center;
+  color: black;
   background-color: #e6cfd2;
-  width: 250px;
-  font-size: 50px; }
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-size: 50px;
+  margin-bottom: 50px; }
 
 .divAbout, .divFaqs, .divHistory {
   text-align: justify;
@@ -94,7 +96,7 @@ body {
   background-color: #c7d882;
   border: solid black; }
 
-.alerts, .frase, .listing {
+.alerts, .listing {
   width: 230px;
   color: white;
   font-size: 20px;
@@ -105,11 +107,13 @@ body {
   border-width: 4px; }
 
 .frase {
-  border: solid black;
-  color: white;
+  text-align: center;
+  color: black;
   background-color: #e6cfd2;
-  width: 250px;
-  font-size: 50px; }
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-size: 50px;
+  margin-bottom: 50px; }
 
 .divAbout, .divFaqs, .divHistory {
   text-align: justify;
@@ -174,11 +178,36 @@ body {
   margin-bottom: 150px; }
 
 .anunciosFlex {
-  margin-top: 50px;
+  padding: 3%;
+  margin: 1%;
+  width: 300px;
+  border-style: solid;
+  border-color: #90a7b0;
+  border-radius: 8px;
+  border-width: 5px;
+  box-shadow: 5px 5px 21px -2px rgba(0, 0, 0, 0.1); }
+  .anunciosFlex:hover {
+    box-shadow: 5px 5px 21px -2px rgba(0, 0, 0, 0.25);
+    animation: pulse 1s; }
+
+.anunciosAcomodo {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  justify-content: space-around; }
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: center; }
+
+.anunciosFlex__icon {
+  justify-self: center;
+  margin-bottom: 20px; }
+
+.tituloSobreMi {
+  background-color: rgba(248, 248, 248, 0.25);
+  color: white;
+  font-size: 100px;
+  text-align: center;
+  position: relative;
+  bottom: 700px; }
 
 .sobreMi {
   display: flex;
@@ -186,7 +215,14 @@ body {
   align-items: center;
   justify-content: space-between;
   position: relative;
-  bottom: 150px; }
+  bottom: 400px; }
+
+.sobreMiIconos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: relative;
+  bottom: 200px; }
 
 .logInForm {
   background-color: #c7d882;
@@ -279,7 +315,7 @@ body {
   background-color: #c7d882;
   border: solid black; }
 
-.alerts, .frase, .listing {
+.alerts, .listing {
   width: 230px;
   color: white;
   font-size: 20px;
@@ -290,11 +326,13 @@ body {
   border-width: 4px; }
 
 .frase {
-  border: solid black;
-  color: white;
+  text-align: center;
+  color: black;
   background-color: #e6cfd2;
-  width: 250px;
-  font-size: 50px; }
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-size: 50px;
+  margin-bottom: 50px; }
 
 .divAbout, .divFaqs, .divHistory {
   text-align: justify;

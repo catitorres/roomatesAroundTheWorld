@@ -30,16 +30,52 @@
 	margin-bottom: 150px;
 }
 .anunciosFlex{
-    margin-top: 50px;
-	@include flex-row-center;
-	justify-content: space-around;
+	padding: 3%;
+	margin: 1%;
+	width: 300px;
+	border-style: solid;
+	border-color: $rosa;
+	border-radius: 8px;
+	border-width: 5px;
+	box-shadow: 5px 5px 21px -2px rgba(0,0,0,0.1);
+
+	&:hover{
+		box-shadow: 5px 5px 21px -2px rgba(0,0,0,0.25);
+		animation: pulse 1s;
+	}
+}
+.anunciosAcomodo{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: space-around;
+	justify-content: center;
+}
+.anunciosFlex__icon{
+	justify-self: center;
+	margin-bottom: 20px;
+}
+.tituloSobreMi{
+	background-color: rgba(248, 248, 248, 0.25);
+	color: white;
+	font-size: 100px;
+	text-align: center;
+	position: relative;
+	bottom: 700px;
 }
 .sobreMi{
 	@include flex-col;
 	align-items: center;
 	justify-content: space-between;
 	@include position-relative;
-	bottom: 150px;
+	bottom: 400px;
+}
+.sobreMiIconos{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	position: relative;
+	bottom: 200px;
 }
 .logInForm{
 	background-color: $verdeManzana;
