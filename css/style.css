@@ -301,6 +301,10 @@ footer {
   transform: translateY(-20px);
   transition: all 1s; }
 
+.iconosHover:hover {
+  transform: translateY(-20px);
+  transition: all 1s; }
+
 body {
   background-color: white; }
 
@@ -391,9 +395,17 @@ body {
   font-size: 18px;
   color: white; }
 
+.buttonHome:hover, .botonBusqueda:hover, .botonRedes:hover, .botonRedesNew:hover, .botonEnviar:hover, .botonRegistrar:hover {
+  box-shadow: 5px 5px 21px -2px rgba(0, 0, 0, 0.25);
+  animation: pulse 1s; }
+
 .botonBusqueda {
   background-color: #90a7b0;
   width: 100px; }
+
+.botonBusqueda:hover {
+  box-shadow: 5px 5px 21px -2px rgba(0, 0, 0, 0.25);
+  animation: pulse 1s; }
 
 .botonRedes, .botonRedesNew, .botonEnviar, .botonRegistrar {
   width: 100px;
@@ -403,14 +415,30 @@ body {
   border-radius: 10px;
   margin-left: 10px; }
 
+.botonRedes:hover, .botonRedesNew:hover, .botonEnviar:hover, .botonRegistrar:hover {
+  box-shadow: 5px 5px 21px -2px rgba(0, 0, 0, 0.25);
+  animation: pulse 1s; }
+
 .botonRedesNew {
   position: relative;
   left: 24px; }
+
+.botonRedesNew:hover {
+  box-shadow: 5px 5px 21px -2px rgba(0, 0, 0, 0.25);
+  animation: pulse 1s; }
 
 .botonEnviar, .botonRegistrar {
   margin-left: 0px;
   background-color: #e6cfd2;
   border: 2px solid white; }
+
+.botonEnviar:hover, .botonRegistrar:hover {
+  box-shadow: 5px 5px 21px -2px rgba(0, 0, 0, 0.25);
+  animation: pulse 1s; }
+
+.botonRegistrar:hover {
+  box-shadow: 5px 5px 21px -2px rgba(0, 0, 0, 0.25);
+  animation: pulse 1s; }
 
 .imagenHeader {
   width: 100%; }
