@@ -382,7 +382,7 @@ body {
   color: black;
   background-color: #90a7b0; }
 
-.buttonHome, .botonBusqueda, .botonRedes, .botonEnviar, .botonRegistrar {
+.buttonHome, .botonBusqueda, .botonRedes, .botonRedesNew, .botonEnviar, .botonRegistrar {
   width: 200px;
   background-color: #36385e;
   border-radius: 10px;
@@ -395,13 +395,17 @@ body {
   background-color: #90a7b0;
   width: 100px; }
 
-.botonRedes, .botonEnviar, .botonRegistrar {
+.botonRedes, .botonRedesNew, .botonEnviar, .botonRegistrar {
   width: 100px;
   background-color: #90a7b0;
   border: 2px solid black;
   color: white;
   border-radius: 10px;
   margin-left: 10px; }
+
+.botonRedesNew {
+  position: relative;
+  left: 24px; }
 
 .botonEnviar, .botonRegistrar {
   margin-left: 0px;

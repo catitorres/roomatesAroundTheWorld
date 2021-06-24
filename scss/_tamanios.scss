@@ -22,6 +22,11 @@
 	border-radius: 10px;
 	margin-left: 10px;
 }
+.botonRedesNew{
+	@extend .botonRedes;
+	position: relative;
+	left: 24px;
+}
 .botonEnviar{
     @extend .botonRedes;
     margin-left: 0px;
