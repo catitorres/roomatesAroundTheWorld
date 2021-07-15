@@ -26,8 +26,17 @@
 }
 .buscadorBarra{
 	@include flex-row-center;
+	flex-direction: column;
 	margin-top: 50px;
 	margin-bottom: 150px;
+}
+.buscadorNuevo{
+	align-self: center;
+}
+.barraBuscador{
+	width: 300px;
+	height: 80px;
+	border-radius: 10px;
 }
 .anunciosFlex{
 	padding: 3%;
@@ -44,6 +53,18 @@
 		animation: pulse 1s;
 	}
 }
+.anunciosFlexSobreMi{
+	@extend .anunciosFlex;
+	width: 400px;
+	background-color: lightgray;
+	border-color: $oscuro;
+}
+.telefonos{
+	@extend .anunciosFlexSobreMi;
+	text-align: center;
+	width: 260px;
+	margin: 20px;
+}
 .anunciosAcomodo{
 	display: flex;
 	flex-direction: row;
@@ -51,17 +72,22 @@
 	align-content: space-around;
 	justify-content: center;
 }
+.anunciosAcomodoSobreMi{
+	@extend.anunciosAcomodo;
+}
 .anunciosFlex__icon{
 	justify-self: center;
 	margin-bottom: 20px;
 }
 .tituloSobreMi{
 	background-color: rgba(248, 248, 248, 0.25);
-	color: white;
-	font-size: 100px;
+	color: $oscuro;
+	font-size: 50px;
 	text-align: center;
-	position: relative;
-	bottom: 700px;
+
+}
+.tituloPhone{
+	@extend .tituloSobreMi; 
 }
 .sobreMi{
 	@include flex-col;
@@ -74,8 +100,8 @@
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
-	position: relative;
-	bottom: 200px;
+	margin: 50px;
+
 }
 .logInForm{
 	background-color: $verdeManzana;
@@ -134,11 +160,11 @@ footer{
 }
 
 .divMail{
-	padding-right: 40px;
+	padding-right: 30px;
 	padding-left: 10px;
 }
 .divPhone{
-    padding-right: 40px;
+    padding-right: 20px;
 }
 .imgRRSS:hover{
 	transform: translateY(-20px);

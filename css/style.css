@@ -174,10 +174,19 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  flex-direction: column;
   margin-top: 50px;
   margin-bottom: 150px; }
 
-.anunciosFlex {
+.buscadorNuevo {
+  align-self: center; }
+
+.barraBuscador {
+  width: 300px;
+  height: 80px;
+  border-radius: 10px; }
+
+.anunciosFlex, .anunciosFlexSobreMi, .telefonos {
   padding: 3%;
   margin: 1%;
   width: 300px;
@@ -186,11 +195,21 @@ body {
   border-radius: 8px;
   border-width: 5px;
   box-shadow: 5px 5px 21px -2px rgba(0, 0, 0, 0.1); }
-  .anunciosFlex:hover {
+  .anunciosFlex:hover, .anunciosFlexSobreMi:hover, .telefonos:hover {
     box-shadow: 5px 5px 21px -2px rgba(0, 0, 0, 0.25);
     animation: pulse 1s; }
 
-.anunciosAcomodo {
+.anunciosFlexSobreMi, .telefonos {
+  width: 400px;
+  background-color: lightgray;
+  border-color: #36385e; }
+
+.telefonos {
+  text-align: center;
+  width: 260px;
+  margin: 20px; }
+
+.anunciosAcomodo, .anunciosAcomodoSobreMi {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -201,13 +220,11 @@ body {
   justify-self: center;
   margin-bottom: 20px; }
 
-.tituloSobreMi {
+.tituloSobreMi, .tituloPhone {
   background-color: rgba(248, 248, 248, 0.25);
-  color: white;
-  font-size: 100px;
-  text-align: center;
-  position: relative;
-  bottom: 700px; }
+  color: #36385e;
+  font-size: 50px;
+  text-align: center; }
 
 .sobreMi {
   display: flex;
@@ -221,8 +238,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  position: relative;
-  bottom: 200px; }
+  margin: 50px; }
 
 .logInForm {
   background-color: #c7d882;
@@ -291,11 +307,11 @@ footer {
   top: 20px; }
 
 .divMail {
-  padding-right: 40px;
+  padding-right: 30px;
   padding-left: 10px; }
 
 .divPhone {
-  padding-right: 40px; }
+  padding-right: 20px; }
 
 .imgRRSS:hover {
   transform: translateY(-20px);
