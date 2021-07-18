@@ -60,7 +60,7 @@ body {
 .redes {
   border: solid black;
   background-color: #e6cfd2;
-  border-width: 5px;
+  border-width: 3px;
   padding: 20px; }
 
 .mailForm, .registrar {
@@ -141,7 +141,7 @@ body {
 .redes {
   border: solid black;
   background-color: #e6cfd2;
-  border-width: 5px;
+  border-width: 3px;
   padding: 20px; }
 
 .mailForm, .registrar {
@@ -243,6 +243,7 @@ body {
 
 .logInForm {
   background-color: #c7d882;
+  border: 3px solid black;
   padding: 50px;
   display: flex;
   flex-direction: row;
@@ -305,9 +306,7 @@ footer {
   justify-content: center;
   justify-content: flex-start;
   align-content: space-around;
-  position: relative;
-  left: 20px;
-  top: 20px; }
+  align-items: center; }
 
 .divMail {
   padding-right: 30px;
@@ -386,7 +385,7 @@ body {
 .redes {
   border: solid black;
   background-color: #e6cfd2;
-  border-width: 5px;
+  border-width: 3px;
   padding: 20px; }
 
 .mailForm, .registrar {
