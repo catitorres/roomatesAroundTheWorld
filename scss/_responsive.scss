@@ -121,6 +121,8 @@
 	padding: 20px;
 	@include flex-col;
 	justify-content: center;
+	@include position-relative;
+	bottom: 90px;
 }
 .tablaContacto{
 	@include flex-row-center;
