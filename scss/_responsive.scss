@@ -150,8 +150,16 @@ footer{
 	background-color: $verdeManzana;
 
 }
+.footerFlex{
+	display: flex;
+	flex-direction: row;
+	flex-wrap:wrap;
+	justify-content: space-between;
+}
 .logoFooter{
 	margin: 10px;
+	position: relative;
+	right: 20px;
 }
 .contact{
 	padding: 10px;
@@ -160,13 +168,24 @@ footer{
 	align-content: space-around;
 	align-items: center;
 }
+.lema{
+	font-family: 'Barlow Condensed', sans-serif;
+	font-size: 40px;
+	margin-top: 30px;
+		
+}
 
 .divMail{
 	padding-right: 30px;
 	padding-left: 10px;
+	
 }
 .divPhone{
     padding-right: 20px;
+	
+}
+.divWsp{
+	
 }
 .imgRRSS:hover{
 	transform: translateY(-20px);
